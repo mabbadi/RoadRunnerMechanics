@@ -64,6 +64,7 @@ const ContactSection = () => {
                         </h4>
                         {info.link ? (
                           <a 
+                            style={{ overflowWrap: "break-word", wordBreak: "break-all" }}
                             href={info.link}
                             className="text-muted-foreground hover:text-primary transition-colors"
                           >

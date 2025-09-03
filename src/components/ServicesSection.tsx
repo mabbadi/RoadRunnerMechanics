@@ -2,7 +2,7 @@ import { useLanguage } from '@/hooks/useLanguage';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Wrench, Zap, Star, Car } from 'lucide-react';
 import basicServicesImage from '@/assets/basic-services.jpg';
-import specialServicesImage from '@/assets/special-services.jpg';
+import specialServicesImage from '@/assets/special-services.png';
 import brandFocusImage from '@/assets/brand-focus.jpg';
 
 const ServicesSection = () => {
