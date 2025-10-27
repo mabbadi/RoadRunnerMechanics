@@ -6,9 +6,9 @@ const Footer = () => {
   const { t } = useLanguage();
 
   const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, label: 'Facebook', href: '#' },
-    { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', href: '#' },
-    { icon: <Instagram className="w-5 h-5" />, label: 'Instagram', href: '#' },
+   // { icon: <Facebook className="w-5 h-5" />, label: 'Facebook', href: '#' },
+   // { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', href: '#' },
+    { icon: <Instagram className="w-5 h-5" />, label: 'Instagram', href: 'https://www.instagram.com/r_rmechanics/' },
   ];
 
   return (
@@ -18,9 +18,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center font-bold text-primary-foreground">
-                RR
-              </div>
+              <img src={logo} alt="Roadrunner Mechanics Logo" className="w-12 h-12 object-contain rounded-full" />
               <span className="font-bold text-xl">Roadrunner Mechanics</span>
             </div>
             <p className="text-muted-foreground">
