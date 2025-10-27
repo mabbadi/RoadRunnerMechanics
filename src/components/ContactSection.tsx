@@ -28,7 +28,7 @@ const ContactSection = () => {
     {
       icon: <Clock className="w-6 h-6 text-primary" />,
       title: 'Hours',
-      content: 'Mon-Fri: 8AM-6PM, Sat: 9AM-4PM',
+      content: 'Mon-Fri: 8AM-5PM, Sat: 9AM-4PM',
       link: null
     }
   ];
