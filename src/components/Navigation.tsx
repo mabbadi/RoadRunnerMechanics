@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
 import { ChevronDown, Menu, X, Globe } from 'lucide-react';
+import logo from '@/assets/roadrunner-logo.jpeg';
 
 const Navigation = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -22,9 +23,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center font-bold text-primary-foreground">
-              RR
-            </div>
+            <img src={logo} alt="Roadrunner Mechanics Logo" className="w-12 h-12 object-contain" />
             <span className="font-bold text-xl">Roadrunner Mechanics</span>
           </div>
 
