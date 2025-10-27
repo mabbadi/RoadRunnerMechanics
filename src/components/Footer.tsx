@@ -1,6 +1,7 @@
 import { useLanguage } from '@/hooks/useLanguage';
 import { Button } from '@/components/ui/button';
 import { Facebook, Twitter, Instagram, Phone, Mail } from 'lucide-react';
+import logo from '@/assets/roadrunner-logo.jpeg';
 
 const Footer = () => {
   const { t } = useLanguage();
