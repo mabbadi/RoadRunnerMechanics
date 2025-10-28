@@ -14,4 +14,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://roadrunnermechanics.nl/sitemap.xml
+Sitemap: https://roadrunnermechanics.nl/my-sitemap.xml
